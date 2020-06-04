@@ -2,6 +2,7 @@ Modules required:
 
 1.	Pull financial data from Morningstar
     a. Likely that the easiest way to do this is to download via csv file (there is a csv download option on company pages)
+    b. Need way of script identifying target company (input of company name and/or identification of stock ticker)
     
 2.  Isolate profit and loss items, renaming where necessary, and place them into a profit and loss table in Google Sheets
 
