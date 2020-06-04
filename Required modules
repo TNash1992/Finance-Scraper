@@ -1,0 +1,24 @@
+Modules required:
+
+1.	Pull financial data from Morningstar
+    a. Likely that the easiest way to do this is to download via csv file (there is a csv download option on company pages)
+    
+2.  Isolate profit and loss items, renaming where necessary, and place them into a profit and loss table in Google Sheets
+
+3.	Isolate Balance Sheet items, categorising into relevant line items within Balance Sheet in Google Sheets
+
+4.	Isolate Cash Flow items and introduce to cash flow valuation
+
+5.	Handle currency differences in following manner:
+    a.	 Use of average FX rate for year for profit and loss & cash flow items
+    b.	Use of spot rate at year end for balance sheet items
+    
+6.	Calculate value of company based on adjustable inputs (Can be done within current Google Sheets template)
+    a. Dividend valuation model
+    b. Free cash flow valuation model
+    c. EVA valuation model
+    d. Net book value model
+    
+7.	Display values for companies in a summary (like have currently)
+
+8.	Notify user when a sheet has been updated with new financials
